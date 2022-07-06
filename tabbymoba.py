@@ -66,7 +66,7 @@ for idx, key in enumerate(items):
     section_id = last_section + idx + 1
     config.add_section(f'Bookmarks_{section_id}')
     config[f'Bookmarks_{section_id}']['SubRep'] = f'Tabby sessions\\{key}'
-    config[f'Bookmarks_{section_id}']['ImgNum'] = '63'
+    config[f'Bookmarks_{section_id}']['ImgNum'] = '41'
     for item in  items[key]:
         if item['type'] == 'ssh':
             entry = f"#{item['type_translated']}#0%{item['host']}%{item['port']}%{item['user']}"
