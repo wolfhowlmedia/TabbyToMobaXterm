@@ -13,6 +13,6 @@ It's a crude script that appends your Tabby sessions to your existing MobaXTerm 
 3) Make a backup of the file
 4) Install python's dependancies (either by python -m pip install pyyaml or load it from the requirements.txt file)
 5) Run the script
-6) Import the newly generated text.mxtsessions file. WARNING! Importing the file will erase your previous section. Make sure you do the step #3 first! (or third)
+6) Import the newly generated test.mxtsessions file. WARNING! Importing the file will erase your previous section. Make sure you do the step #3 first! (or third)
 7) ???
 8) Profit!
